@@ -7,7 +7,7 @@ import {
   NotAuthorizedError,
   NotFoundError,
   OrderStatus,
-} from '@cygnetops/common';
+} from '@nana212tickets/common';
 import { stripe } from '../stripe';
 import { Order } from '../models/order';
 import { Payment } from '../models/payment';
