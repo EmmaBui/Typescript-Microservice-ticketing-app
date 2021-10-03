@@ -12,7 +12,7 @@ app.use(json());
 app.use(
   cookieSession({
     signed: false,
-    secure: false,
+    secure: false
   })
 );
 app.use(currentUser);
