@@ -6,13 +6,13 @@ export default ({ req }) => {
 
     return axios.create({
       baseURL:
-        'http://ticketing-lookingfordomain.xyz/',
+        'http://www.ticketing-lookingfordomain.xyz/',
       headers: req.headers,
     });
   } else {
     // We must be on the browser
     return axios.create({
-      baseUrl: '/',
+      baseURl: '/',
     });
   }
 };
